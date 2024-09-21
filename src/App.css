@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+.titulo{
+  font-family: 'Playwrite CU', cursive;
+  color: #fff;
+  text-shadow: 0 0 15px #f0f, 0 0 30px #f0f, 0 0 50px #f0f;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
