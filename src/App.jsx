@@ -38,6 +38,7 @@ export default function App() {
     <div className='contenedor d-flex flex-column justify-content-center align-center mt-5 gap-3 text-center'>
       <h1 className='titulo'>Buscador de clima</h1>
       <div className="contenido">
+        
         <form onSubmit={handleSubmitForm} className='d-flex justify-content-center mt-3 gap-3' autoComplete='off'>
           <input className='w-auto' value={inputCiudad} type="text" placeholder="Ingrese una ciudad" onChange={handleInputCiudad} />
           <input className="btn btn-warning" type="submit" value="Buscar" />
